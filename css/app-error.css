@@ -1,0 +1,62 @@
+/* 
+    Document   : app-error
+    Created on : May 2, 2011, 10:19:44 PM
+    Author     : freakyelf
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body, html
+{
+    padding: 0;
+    margin: 0;
+    font: normal 12px "Lucida Grande";
+    color: #000000;
+    background-color: #518f0f;
+}
+#wrapper
+{
+    min-width: 800px;
+    height: 600px;
+}
+#box
+{
+    width: 90%;
+    min-height: 150px;
+    background-color: #FFFFFF;
+    border: solid 3px #8dd442;
+    margin: 50px auto 0 auto;
+}
+#box h2
+{
+    font: bold 18px "Lucida Grande";
+    color: #000000;
+    margin: 15px 0 0 20px;
+}
+#box p
+{
+    margin: 10px 0 0 25px;
+    font: normal 12px "Arial";
+    color: #000000;
+}
+#copyright
+{
+    width: 90%;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    font: normal 14px "Lucida Grande";
+    color: #FFFFFF;
+}
+#copyright a
+{
+    text-decoration: none;
+    color: #F0F0F0;
+}
+#copyright a:hover
+{
+    text-decoration: underline;
+}

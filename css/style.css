@@ -1,0 +1,349 @@
+/* 
+    Document   : style
+    Created on : Apr 30, 2011, 10:37:18 PM
+    Author     : freakyelf
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body, html
+{
+    padding: 0;
+    margin: 0;
+    font: normal 12px "Lucida Grande";
+    color: #000000;
+}
+#wrapper
+{
+    min-width: 800px;
+    min-height: 768px;
+    margin: 0 auto 0 auto;
+    background-color: #518f0f;
+}
+#app-login-bar
+{
+    height: 45px;
+    background: #8dd442 url('../images/bg_app-login-bar.png') top left repeat-x;
+    border-bottom: solid 1px #3c7005;
+}
+a.admin-login
+{
+    height: 36px;
+    min-width: 36px;
+    text-decoration: none;
+    float: right;
+    margin-right: 5px;
+    /*background: transparent url('../images/icons/32x32/Administrator-3-icon.png') center left no-repeat;*/
+}
+a.admin-login img
+{
+    float: left;
+    clear: both;
+    border: solid 1px #518f0f;
+    background: #8dd442 url('../images/bg_btn_admin-login.png') top left repeat;
+    padding: 5px;
+}
+a.admin-login img:active
+{
+    background: #8dd442 url('../images/bg_app-login-bar-rev.png') top left repeat-x;
+    margin: 1px 0 0 1px;
+}
+a.admin-login span
+{
+    font: bold 14px "Verdana";
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 32px auto 0 auto;
+}
+.rounded10
+{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.rounded12
+{
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+.bottomrounded12
+{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    -moz-border-radius-bottomleft: 12px;
+    -moz-border-radius-bottomright: 12px;
+    -webkit-border-radius-bottomleft: 12px;
+    -webkit-border-radius-bottomright: 12px;
+}
+#quick-search
+{
+    float: right;
+    margin: 3px 10px 0 0;
+}
+.txtSearchInput
+{
+    min-width: 200px;
+    height: 36px;
+    border: solid 1px #518f0f;
+    background-color: #FFFFFF, #FFFFFF;
+    background-image: url('../images/icons/32x32/Search-Search-icon.png'), url('../images/bg_txtInput.png');
+    background-position: center right, top left;
+    background-repeat: no-repeat, no-repeat;
+    font: normal 16px "Lucida Grande";
+    color: #000000;
+    padding-left: 5px;
+}
+.txtInput
+{
+    min-width: 200px;
+    height: 25px;
+    border: solid 1px #518f0f;
+    background: #FFFFFF url('../images/bg_txtInput.png') top left no-repeat;
+    font: normal 16px "Lucida Grande";
+    color: #000000;
+    padding-left: 5px;
+}
+input[type="button"].button
+{
+    min-width: 60px;
+    height: 34px;
+    background: #C0C0C0 url('../images/bg_btn_admin-login.png') top left repeat-x;
+    border: solid 1px #808080;
+    font: bold 14px Sans;
+    color: #FFFFFF;
+}
+input[type="button"].button:hover
+{
+    color: #808080;
+    cursor: pointer;
+}
+input[type="button"].button:active
+{
+    background: #8BD240 url('../images/bg_btn_admin-login-rev.png') top left repeat-x;
+}
+select.select
+{
+    height: 25px;
+    min-width: 60px;
+    border: solid 1px #518f0f;
+    background: #FFFFFF url('../images/bg_txtInput.png') top left no-repeat;
+    font: normal 16px "Lucida Grande";
+    color: #000000;
+    padding-left: 5px;
+}
+select#selSearchTerm
+{
+    color: #808080;
+    font-style: italic;
+}
+#app-toolbar
+{
+    height: 100px;
+    background: transparent url('../images/bg_app-toolbar.png') top left repeat-x;
+}
+#app-title-label
+{
+    float: left;
+    margin: 1px 0 0 5px;
+}
+a.title-label
+{
+    font: bold 32px "Lucida Grande";
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#app-main-body
+{
+    min-width: 300px;
+    min-height: 588px;
+    margin: 0 20px 0 20px;
+    background-color: #8dd442;
+}
+#left-toolbar
+{
+    float: left;
+    margin: 15px 0 0 10px;
+}
+#frmLower
+{
+    margin: 10px 0 0 0px;
+}
+#word-nav
+{
+    float: left;
+    margin-right: 10px;
+}
+#word-nav a
+{
+    text-decoration: none;
+    padding: 5px;
+}
+#word-nav a img
+{
+    border: none;
+}
+#mid-toolbar
+{
+    float: left;
+    margin: 10px 0 0 15px;
+    width: 350px;
+}
+#mid-toolbar table
+{
+    height: 100%;
+    border-collapse: collapse;
+    font: normal 12px Sans;
+    color: #000000;
+}
+#mid-toolbar table tr
+{
+    height: 25px;
+}
+#txtKeyMainSearch
+{
+    width: 310px;
+}
+#left-body
+{
+    margin: 0 0 0 10px;
+    width: 40%;
+    height: 588px;
+    background-color: #FFFFFF;
+    float: left;
+    overflow-y: scroll;
+}
+#left-body table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+#left-body table tr
+{
+    height: 25px;
+    font: normal 12px "Arial";
+    color: #000000;
+    border-bottom: solid 1px #C0C0C0;
+}
+tr.rowdata:hover
+{
+    background-color: #FFCC00;
+    cursor: pointer;
+}
+tr.rowdata.current
+{
+    background-color: #8DD442;
+}
+#right-body
+{
+    width: 58%;
+    height: 588px;
+    margin: 0 5px 0 41%;
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+#definition
+{
+    margin: 5px;
+}
+#footer
+{
+    height: 35px;
+    background: #518f0f url('../images/bg_footer.png') top left repeat-x;
+    text-align: center;
+}
+#inner-footer
+{
+    margin: auto;
+    width: 99%;
+    height: 85%;
+    background-color: #FFFFFF;
+    border: solid 1px #518f0f;
+}
+#inner-footer p
+{
+    margin: 7px 0 0 0;
+}
+.logo-box
+{
+    width: 180px;
+    height: 60px;
+}
+#app-logo
+{
+    float: right;
+    margin: 65px -35px 0 0;
+    z-index: 100000;
+}
+.float-div
+{
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layer-modal
+{
+    background: transparent url('../images/bg_modal.png') top left repeat;
+    min-width: 100%;
+    min-height: 100%;
+}
+#frmEntryComment
+{
+    background-color: #FFFFFF;
+    border: solid 7px #808080;
+    width: 800px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+}
+#frmEntryComment fieldset
+{
+    border: solid 1px #000000;
+}
+#frmEntryComment legend
+{
+    font: bold 16px "Lucida Grande";
+    color: #518F0F;
+}
+#frmEntryComment table
+{
+    width: 99%;
+    border-collapse: collapse;
+    border-spacing: 3px;
+}
+td.wysiwyg
+{
+    padding: 5px 0 0 3px;
+}
+textarea.txtaTinymce
+{
+    width: 100%;
+}
+td.labelComment
+{
+    vertical-align: middle;
+    font: normal 14px "Sans";
+    color: #518F0F;
+    padding: 3px;
+    max-width: 180px;
+}
+label.cLabelComment
+{
+    font: normal 14px "Sans";
+    color: #518F0F;
+}
+a#close-float-div
+{
+    background: transparent url('../images/icons/32x32/button_cancel.png') center left no-repeat;
+    
+}
+a#close-float-div span
+{
+    margin-left: 18px;
+    font: bold 14px "Sans";
+}

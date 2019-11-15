@@ -1,0 +1,471 @@
+/* 
+    Document   : admin-style
+    Created on : May 3, 2011, 5:42:05 AM
+    Author     : freakyelf
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body, html
+{
+    padding: 0;
+    margin: 0;
+    font: normal 12px "Lucida Grande";
+    color: #000000;
+    background-color: #FFFFFF;
+}
+#signin
+{
+    width: 400px;
+    height: 176px;
+    margin: 110px auto 0 auto;
+}
+#signin table
+{
+    width: 100%;
+}
+#signin table tr
+{
+    height: 35px;
+}
+#signin fieldset
+{
+    border: solid 1px #8DD442;
+    margin: 3px;
+}
+#signin legend
+{
+    font: bold 18px "Sans";
+    color: #518F0F;
+}
+td.label
+{
+    vertical-align: middle;
+    font: normal 14px "Sans";
+    color: #518F0F;
+    padding: 3px;
+    max-width: 180px;
+}
+label.cLabel
+{
+    font: normal 14px "Sans";
+    color: #518F0F;
+}
+.txtInput
+{
+    width: 100%;
+    height: 25px;
+    border: solid 1px #518f0f;
+    background: #FFFFFF url('../../images/bg_txtInput.png') top left no-repeat;
+    font: normal 16px "Lucida Grande";
+    color: #000000;
+    padding: 0 5px 0 3px;
+}
+.ro
+{
+    color: #808080;
+}
+input[type="button"].button,
+input[type="submit"].button
+{
+    min-width: 60px;
+    height: 34px;
+    background: #C0C0C0 url('../../images/bg_btn_admin-login.png') top left repeat-x;
+    border: solid 1px #808080;
+    font: bold 14px Sans;
+    color: #FFFFFF;
+}
+input[type="button"].button:hover,
+input[type="submit"].button:hover
+{
+    color: #808080;
+    cursor: pointer;
+}
+input[type="button"].button:active,
+input[type="submit"].button:active
+{
+    background: #8BD240 url('../../images/bg_btn_admin-login-rev.png') top left repeat-x;
+}
+select.select
+{
+    height: 25px;
+    min-width: 60px;
+    border: solid 1px #518f0f;
+    background: #FFFFFF url('../../images/bg_txtInput.png') top left no-repeat;
+    font: normal 16px "Lucida Grande";
+    color: #000000;
+    padding-left: 5px;
+}
+.rounded10
+{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.rounded12
+{
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+.most-top-toolbar
+{
+    height: 30px;
+    background: #8DD442 url('../../images/bg_mosttoptoolbar.png') top left repeat-x;
+}
+.most-top-toolbar ul
+{
+    margin: 8px 0 0 -50px;
+    float: left;
+}
+.most-top-toolbar ul li
+{
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+.most-top-toolbar ul li a.link#options
+{
+    background: transparent url('../../images/icons/16x16/wheel16.png') top left no-repeat;
+    vertical-align: middle;
+}
+.most-top-toolbar ul li a
+{
+    text-decoration: none;
+}
+.most-top-toolbar ul li a.link span,
+.most-top-toolbar ul li a.visited span
+{
+    margin-left: 18px;
+    color: #FFFFFF;
+}
+a.link:link,
+a.link:visited
+{
+    text-decoration: none;
+    font: normal 12px "Sans";
+    color: #808080;
+}
+
+a.link:link:hover,
+a.link:visited:hover
+{
+    text-decoration: underline;
+}
+#loading
+{
+    float: right;
+    margin: 3px 7px 0 0;
+    width: 43px;
+    height: 11px;
+    background: url('../../images/loading35.gif') center center no-repeat;
+}
+#notification
+{
+    width: 300px;
+    min-height: 70px;
+    /*margin: -5px auto 0 auto;*/
+    float: left;
+    position: fixed;
+    top: 30px;
+    left: 370px;
+    right: 0;
+    z-index: 10000;
+    text-align: center;
+}
+
+#notification img
+{
+
+}
+
+
+#notification p
+{
+    font: normal 14px Arial;
+    min-height: 30px;
+    min-width: 250px;
+}
+
+.error
+{
+    background-color: #B80000;
+}
+
+.exclamation
+{
+    background-color: #FFCC33;
+}
+
+.info
+{
+    background-color: #809FFF;
+}
+.bottomrounded12
+{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    -moz-border-radius-bottomleft: 12px;
+    -moz-border-radius-bottomright: 12px;
+    -webkit-border-radius-bottomleft: 12px;
+    -webkit-border-radius-bottomright: 12px;
+}
+#wrapper
+{
+    min-width: 800px;
+    min-height: 600px;
+}
+.logo-box
+{
+    width: 180px;
+    height: 60px;
+}
+#adm-logo
+{
+    float: left;
+    margin: -20px 0 0 18px;
+}
+#left-panel
+{
+    width: 220px;
+    height: 100%;
+    background-color: #FFFFFF;
+    float: left;
+    margin: 20px 0 0 0;
+}
+#left-panel ul
+{
+    margin: 50px 0 0 0;
+    width: 180px;
+}
+#left-panel ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font: normal 14px "Lucida Grande";
+    color: #000000;
+}
+#left-panel ul li:hover
+{
+    cursor: pointer;
+}
+#left-panel ul li:hover,
+li.current
+{
+    background-color: #8DD442;
+}
+#right-panel
+{
+    min-width: 580px;
+    min-height: 100%;
+    border: solid 1px #8DD442;
+    border-right: none;
+    margin: -20px 0 0 220px;
+}
+#right-top
+{
+    height: 69px;
+    border-bottom: solid 1px #8DD442;
+    background-color: #FFFFFF /*#518F0F*/;
+}
+#right-top h1
+{
+    float: left;
+    margin: 18px 0 0 20px;
+    font: bold 32px "Lucida Grande";
+    color: #518F0F;
+}
+#rtop-right
+{
+    float: right;
+    margin: 20px 15px 0 0;
+}
+#main-panel
+{
+    margin: 5px;
+}
+.form-toolbar
+{
+    height: 30px;
+}
+.form-toolbar ul
+{
+    margin: 10px 0 0 -30px;
+}
+.form-toolbar ul li
+{
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px 0 10px 0;
+    /*background: #8DD442 url('../../images/bg_btn_admin-login.png') top left repeat-x;*/
+}
+/*
+a.btn
+{
+    border: solid 1px #808080;
+    padding: 10px;
+    text-decoration: none;
+}
+a.btn span
+{
+    padding: 5px;
+    margin-left: 17px;
+    font: bold 14px "Lucida Grande";
+    color: #000000;
+}*/
+.add
+{
+    background: transparent url('../../images/icons/16x16/add-1-icon.png') center left no-repeat;
+}
+.save
+{
+    background: transparent url('../../images/icons/16x16/Floppy-green-icon.png') center left no-repeat;
+}
+.delete
+{
+    background: transparent url('../../images/icons/16x16/remove-ticket-1-icon.png') center left no-repeat;
+}
+.info-panel
+{
+    width: 50%;
+}
+.info-panel table
+{
+    width: 100%;
+}
+.frmEntry
+{
+    margin: 15px 0 0 0;
+    width: 90%;
+}
+.frmEntry table
+{
+    width: 100%;
+}
+.frmEntry fieldset,
+.info-panel fieldset
+{
+    width: 100%;
+    border: solid 1px #808080;
+}
+#frmEntryTerm fieldset
+{
+    margin-top: 20px;
+}
+.frmEntry legend,
+.info-panel legend
+{
+    font: bold 14px "Lucida Grande";
+    color: #000000;
+}
+td.wysiwyg
+{
+    padding: 5px 0 0 3px;
+}
+textarea.txtaTinymce
+{
+    width: 100%;
+}
+#nTerm,
+#nAuthor
+{
+    text-align: right;
+    font: bold 14px "Sans";
+    color: #000000;
+}
+/*
+/** CUSTOM UPLOAD 
+.SI-FILES-STYLIZED label.cabinet
+{
+	min-width: 60px;
+        height: 34px;
+        background: #C0C0C0 url('../../images/bg_btn_admin-login.png') top left repeat-x;
+        border: solid 1px #808080;
+        font: bold 14px Sans;
+        color: #FFFFFF;
+
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.SI-FILES-STYLIZED label.cabinet input.fGambar
+{
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}*/
+#saving
+{
+    margin: 3px auto 20px auto;
+    width: 63px;
+    height: 11px;
+    background: url('../../images/loading35.gif') top center no-repeat;
+    text-align: center;
+    float: left;
+    position: fixed;
+    top: 30px;
+    right: 300px;
+    z-index: 10001;
+}
+.grdList
+{
+    width: 100%;
+}
+.grdList table
+{
+    width: 90%;
+    margin-left: 2px;
+    border-collapse: collapse;
+    border: solid 1px #808080;
+    font: normal 14px "Sans";
+}
+.grdList table tr td
+{
+    padding: 2px;
+    border: solid 1px #808080;
+}
+tr.header
+{
+    height: 25px;
+    font: bold 14px "Lucida Grande";
+    color: #FFFFFF;
+    background: #815F0F url('../../images/bg_mosttoptoolbar.png') top left repeat-x;
+}
+tr.rowdata td:hover
+{
+    background-color: #FFCC00;
+    cursor: pointer;
+}
+tr.light
+{
+    background-color: #D6FF99;
+}
+tr.dark
+{
+    background-color: #8DD422;
+}
+#footer
+{
+    margin: 10px;
+}
+#footer p
+{
+    margin: 7px 0 0 0;
+}
+#spnUsername
+{
+    font: bold 14px "Lucida Grande";
+    color: #000000;
+    margin: 0 5px 0 5px;
+}
